@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SigninActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ecmapplong" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:text="@string/txtv_signin"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:text="@string/txtv_firstname"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:backgroundTint="#818181"
+                android:textColorHint="@color/white_transparent"
+                android:textColor="@color/white_transparent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:text="@string/txtv_lastname"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white_transparent"
+                android:backgroundTint="#818181"
+                android:textColorHint="@color/white_transparent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:text="@string/txtv_email"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white_transparent"
+                android:backgroundTint="#818181"
+                android:textColorHint="@color/white_transparent"
+                android:hint="correo@correo.com"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:text="@string/txtv_pwd"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="fill_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/white_transparent"
+                android:backgroundTint="#818181"
+                android:textColorHint="@color/white_transparent"
+                android:hint="*******"
+                />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:text="@string/login_btn"
+                android:onClick="login"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">E-CMApp</string>
+    <string name="user_singin">Username:</string>
+    <string name="password_singin">Password:</string>
+    <string name="edtuser_singin">Enter the user</string>
+    <string name="edtpassword_singin">Enter the password</string>
+    <string name="start_message">Log in to continue</string>
+    <string name="login_btn">Continue</string>
+    <string name="positive_msj_login">successful validation</string>
+    <string name="signin_btn">Sign in</string>
+    <string name="txtv_signin">Sign in</string>
+    <string name="txtv_firstname">First name</string>
+    <string name="txtv_lastname">Last name</string>
+    <string name="txtv_email">Email</string>
+    <string name="txtv_pwd">Password</string>
+    <string name="title_alrt_shopcar">Go Pay?</string>
+    <string name="msj_alrt_shopcar">Do you want to finish the purchase?</string>
+    <string name="btnposi_alrt_shopcar">finish</string>
+    <string name="btnnega_alrt_shopcar">Continue Buying</string>
+    <string name="txt_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie interdum arcu, et mollis elit luctus sed. Maecenas feugiat nibh tempus cursus ultricies. Curabitur bibendum hendrerit lacus pretium consequat. Donec sed dignissim nulla. Pellentesque sit amet auctor lorem. Quisque molestie posuere velit, eget feugiat sapien lobortis eu.
+
+Vestibulum placerat augue non euismod tincidunt. Quisque consequat risus rhoncus fermentum aliquet. Vestibulum sollicitudin libero id sapien aliquet, eu lobortis nisl facilisis. Fusce lorem ipsum, viverra eu convallis et, pellentesque in elit.
+
+Sed scelerisque, mauris sed egestas placerat, mauris felis pellentesque turpis, eget consequat magna ipsum eget tortor. Integer egestas leo at tristique fringilla. Morbi a est at ligula ullamcorper porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer non arcu vel libero euismod eleifend a sit amet nisl.</string>
+</resources>
