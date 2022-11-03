@@ -1,5 +1,6 @@
 package com.wilder.e_cmapp
 
+import android.annotation.SuppressLint
 import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import android.os.PersistableBundle
 import android.view.MenuItem
+import android.widget.Switch
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private var edtclave: EditText?=null
 
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -33,6 +37,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(goPay)
 
         }
+
+
     }
 
     fun login(btn:View){
@@ -51,9 +57,11 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_bar, menu)
         return super.onCreateOptionsMenu(menu)
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId)  {
@@ -68,6 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
         R.id.tema->{
             Toast.makeText(this, "Day / Nigth", Toast.LENGTH_SHORT).show()
+            teme()
             true
         }
         R.id.configuracion->{
@@ -83,6 +92,23 @@ class MainActivity : AppCompatActivity() {
             super.onOptionsItemSelected(item)
         }
 
+
     }
+
+    fun teme(){
+        val switch = findViewById<Switch>(R.id.swichDN)
+
+        switch.setOnCheckedChangeListener{_,_ ->
+            if (!switch.isChecked){
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                switch.text = "Night "
+            }else{
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                switch.text = "Day "
+            }
+        }
+    }
+
+
 
 }
