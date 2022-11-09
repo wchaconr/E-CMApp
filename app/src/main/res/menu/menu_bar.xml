@@ -2,21 +2,24 @@
 <menu
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
 
     <item
         android:id="@+id/home"
-        android:icon="@android:drawable/ic_menu_preferences"
+        android:icon="@drawable/ic_baseline_home_24"
         android:title="Home"
         app:showAsAction="always"/>
     <item
         android:id="@+id/cuenta"
-        android:icon="@android:drawable/ic_menu_agenda"
+        android:icon="@drawable/ic_baseline_account_circle_24"
         android:title="Cuenta"
         app:showAsAction="always"/>
     <item
         android:id="@+id/tema"
-        android:title="Tema D/N"
+        android:title="Mode D/N"
+        android:icon="@drawable/ic_baseline_light_mode_24"
         app:showAsAction="collapseActionView"
         app:actionLayout="@layout/switch_item"/>
     <item
