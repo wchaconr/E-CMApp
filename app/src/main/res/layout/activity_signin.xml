@@ -25,118 +25,179 @@
 
         </LinearLayout>
 
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_margin="25dp">
+            >
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="50dp"
-                android:text="@string/txtv_signin"
-                android:gravity="center"
-                android:textSize="30dp"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:layout_margin="25dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="40dp"
-                android:text="@string/txtv_firstname"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:text="@string/txtv_signin"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="50dp"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:backgroundTint="#818181"
-                android:textColorHint="@color/white_transparent"
-                android:textColor="@color/white_transparent"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="@string/txtv_firstname"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="40dp"
-                android:text="@string/txtv_lastname"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white"
-                />
+                <EditText
+                    android:id="@+id/edtFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    android:textColor="@color/white_transparent"
+                    />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="50dp"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white_transparent"
-                android:backgroundTint="#818181"
-                android:textColorHint="@color/white_transparent"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="@string/txtv_lastname"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="40dp"
-                android:text="@string/txtv_email"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white"
-                />
+                <EditText
+                    android:id="@+id/edtLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white_transparent"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="50dp"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white_transparent"
-                android:backgroundTint="#818181"
-                android:textColorHint="@color/white_transparent"
-                android:hint="correo@correo.com"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill_vertical"
+                    android:minHeight="40dp"
+                    android:text="@string/txtv_username"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="40dp"
-                android:text="@string/txtv_pwd"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white"
-                />
+                <EditText
+                    android:id="@+id/edtUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    android:textColor="@color/white_transparent"
+                    />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="50dp"
-                android:gravity="fill_vertical"
-                android:textSize="20dp"
-                android:textColor="@color/white_transparent"
-                android:backgroundTint="#818181"
-                android:textColorHint="@color/white_transparent"
-                android:hint="*******"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="@string/txtv_email"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
 
-            <Button
-                android:id="@+id/login_btn"
-                android:layout_width="match_parent"
-                android:layout_gravity="center"
-                android:layout_height="50dp"
-                android:text="@string/login_btn"
-                android:onClick="login"/>
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white_transparent"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    android:hint="correo@correo.com"
+                    />
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="@string/password_singin"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white_transparent"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    android:hint="*******"
+                    android:inputType="textPassword"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="@string/txtv_confirmpwd"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/edtconfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="fill_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white_transparent"
+                    android:backgroundTint="#818181"
+                    android:textColorHint="@color/white_transparent"
+                    android:hint="*******"
+                    android:inputType="textPassword"
+                    />
+
+                <Button
+                    android:id="@+id/btnSignin"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="50dp"
+                    android:text="@string/login_btn"
+                    android:onClick="signin"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
 
     </LinearLayout>
 

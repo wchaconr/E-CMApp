@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.GridLayout
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.GridLayoutManager
@@ -50,9 +49,6 @@ class homeCatalog : AppCompatActivity() {
 
         }
 
-
-
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -63,12 +59,16 @@ class homeCatalog : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId)  {
         R.id.ayudar->{
-            val intento = Intent(this, HelpActivity::class.java)
-            startActivity(intento)
+            val goHelpActivity = Intent(this, HelpActivity::class.java)
+            startActivity(goHelpActivity)
             true
         }
         R.id.cuenta->{
-            Toast.makeText(this, "Necesitas ayuda ?", Toast.LENGTH_SHORT).show()
+            val getUsername = intent
+            val userNameS: String? = getUsername?.getStringExtra("getnickname")
+            val intent: Intent = Intent(this, Account2Activity::class.java)
+            intent.putExtra("getnickname", userNameS)
+            startActivity(intent)
             true
         }
         R.id.tema->{

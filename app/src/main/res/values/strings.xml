@@ -9,14 +9,22 @@
     <string name="positive_msj_login">successful validation</string>
     <string name="signin_btn">Sign in</string>
     <string name="txtv_signin">Sign in</string>
-    <string name="txtv_firstname">First name</string>
-    <string name="txtv_lastname">Last name</string>
-    <string name="txtv_email">Email</string>
-    <string name="txtv_pwd">Password</string>
+    <string name="txtv_firstname">First name:</string>
+    <string name="txtv_lastname">Last name:</string>
+    <string name="txtv_username">Username:</string>
+    <string name="txtv_email">Email:</string>
+    <string name="txtv_confirmpwd">Confirm Password</string>
     <string name="title_alrt_shopcar">Go Pay?</string>
     <string name="msj_alrt_shopcar">Do you want to finish the purchase?</string>
     <string name="btnposi_alrt_shopcar">finish</string>
     <string name="btnnega_alrt_shopcar">Continue Buying</string>
+    <string name="signin_positive_process">Successful registration</string>
+    <string name="signin_negative_process">Registration failed. Try again</string>
+    <string name="txtv_account">Account options</string>
+    <string name="changePassword_btn">Change Password</string>
+    <string name="deleteAccount_btn">Suspend account</string>
+    <string name="SaveChanges_btn">Save Changes</string>
+
     <string name="txt_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie interdum arcu, et mollis elit luctus sed. Maecenas feugiat nibh tempus cursus ultricies. Curabitur bibendum hendrerit lacus pretium consequat. Donec sed dignissim nulla. Pellentesque sit amet auctor lorem. Quisque molestie posuere velit, eget feugiat sapien lobortis eu.
 
 Vestibulum placerat augue non euismod tincidunt. Quisque consequat risus rhoncus fermentum aliquet. Vestibulum sollicitudin libero id sapien aliquet, eu lobortis nisl facilisis. Fusce lorem ipsum, viverra eu convallis et, pellentesque in elit.

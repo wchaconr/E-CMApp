@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "183968423267",
+    "project_id": "final-project-mintic-ciclo-4",
+    "storage_bucket": "final-project-mintic-ciclo-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183968423267:android:622a2e70c09b329f31c756",
+        "android_client_info": {
+          "package_name": "com.wilder.e_cmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183968423267-g8o240od8jnajmaargsmes85i56lnfbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wilder.e_cmapp",
+            "certificate_hash": "457988e6652aeb7f07dc6286d57ccf1e06291647"
+          }
+        },
+        {
+          "client_id": "183968423267-6969qocgtenno1ilfmcaagm0u0e28uoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR-y_3_db3HPHoQEPhrBWVp5ZSXup33pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183968423267-6969qocgtenno1ilfmcaagm0u0e28uoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

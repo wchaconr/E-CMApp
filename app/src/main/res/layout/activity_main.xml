@@ -31,7 +31,8 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_margin="40dp">
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -77,15 +78,16 @@
             android:textColor="@color/white_transparent"
             android:minHeight="48dp"
             android:backgroundTint="#818181"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+
+            />
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:layout_height="50dp"
-            android:text="@string/login_btn"
-            android:onClick="login"/>
+            android:text="@string/login_btn" />
 
         <Button
             android:id="@+id/signin_btn"
@@ -93,7 +95,8 @@
             android:layout_gravity="center"
             android:layout_height="50dp"
             android:text="@string/signin_btn"
-            android:onClick="signin" />
+            android:onClick="signin2" />
+
 
     </LinearLayout>
 

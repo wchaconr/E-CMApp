@@ -11,10 +11,24 @@
     <string name="txtv_signin">Registro</string>
     <string name="txtv_firstname">Nombres</string>
     <string name="txtv_lastname">Apellidos</string>
+    <string name="txtv_username">Username</string>
     <string name="txtv_email">Correo</string>
-    <string name="txtv_pwd">Contraseña</string>
+    <string name="txtv_confirmpwd">Confirmar contraseña</string>
     <string name="title_alrt_shopcar">¿Ir a pagar?</string>
     <string name="msj_alrt_shopcar">¿Quieres finalizar la compra?</string>
     <string name="btnposi_alrt_shopcar">Pagar</string>
     <string name="btnnega_alrt_shopcar">Continunar comprando</string>
+    <string name="signin_positive_process">Registro exitoso</string>
+    <string name="signin_negative_process">Error: el registro no fue exitoso, intente nuevamente</string>
+    <string name="txtv_account">Opciones de cuenta</string>
+    <string name="changePassword_btn">Cambiar contraseña</string>
+    <string name="deleteAccount_btn">Suspender cuenta</string>
+    <string name="SaveChanges_btn">Guardar Cambios</string>
+
+    <string name="txt_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie interdum arcu, et mollis elit luctus sed. Maecenas feugiat nibh tempus cursus ultricies. Curabitur bibendum hendrerit lacus pretium consequat. Donec sed dignissim nulla. Pellentesque sit amet auctor lorem. Quisque molestie posuere velit, eget feugiat sapien lobortis eu.
+
+Vestibulum placerat augue non euismod tincidunt. Quisque consequat risus rhoncus fermentum aliquet. Vestibulum sollicitudin libero id sapien aliquet, eu lobortis nisl facilisis. Fusce lorem ipsum, viverra eu convallis et, pellentesque in elit.
+
+Sed scelerisque, mauris sed egestas placerat, mauris felis pellentesque turpis, eget consequat magna ipsum eget tortor. Integer egestas leo at tristique fringilla. Morbi a est at ligula ullamcorper porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer non arcu vel libero euismod eleifend a sit amet nisl.</string>
+
 </resources>
